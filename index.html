@@ -204,8 +204,11 @@
 			        ],
 			      }
 			    }
-			  });
-			  alert("Message sent successfully");
+			  }).done(function(response) {
+			  	alert("Message sent successfully");
+				}).fail(function(response){
+					alert("Message can't be sent");
+				});
 			}
 		</script>
 	</body>
