@@ -185,6 +185,7 @@
 
 		<script>
 			function sendMail(){
+				this.event.preventDefault();
 			  $.ajax({
 			    type: "POST",
 			    url: "https://mandrillapp.com/api/1.0/messages/send.json",
