@@ -1,12 +1,6 @@
 @import 'vars';
 @import 'mixins';
 
-/*
-	Strata by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 $size-header-pad:		1.5em;
 
 /* List */
@@ -74,3 +68,17 @@ $size-header-pad:		1.5em;
 			}
 		}
 	}
+
+/* Custom */
+.button-medium {
+	margin: 1em 25% 0;
+}
+
+.labeled-icons {
+	padding-top: 1em !important;
+	padding-left: 25% !important;
+}
+
+.fa-mobile.fa-2x {
+	top: -12px !important;
+}
