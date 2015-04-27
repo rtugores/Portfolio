@@ -1,5 +1,6 @@
-@import 'vars';
-@import 'mixins';
+@import 'fragments/vars';
+@import 'fragments/mixins';
+@import 'fragments/responsive/small-responsive';
 
 $size-header-pad:		1.5em;
 

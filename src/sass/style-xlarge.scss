@@ -1,5 +1,5 @@
-@import 'vars';
-@import 'mixins';
+@import 'fragments/vars';
+@import 'fragments/mixins';
 
 body, input, select, textarea {
 	font-size: 12pt;

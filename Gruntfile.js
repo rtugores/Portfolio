@@ -30,11 +30,7 @@ module.exports = function(grunt) {
           noCache: true,
         },
         files: { 
-          'build/css/style.css': 'src/sass/style.scss', 
-          'build/css/style-large.css': 'src/sass/style-large.scss', 
-          'build/css/style-medium.css': 'src/sass/style-medium.scss', 
-          'build/css/style-small.css': 'src/sass/style-small.scss', 
-          'build/css/style-xsmall.css': 'src/sass/style-xsmall.scss', 
+          'build/css/main.min.css': 'src/sass/main.scss',  
         }
       }
     },
