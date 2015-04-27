@@ -25,6 +25,7 @@ function sendMail(){
   	}).fail(function(response){
   		alert("Message can't be sent");
   	}); 
+  }else{
+    alert("Fill all fields before sending"); 
   }
-  alert("Fill all fields before sending");
 }
