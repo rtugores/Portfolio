@@ -9,7 +9,7 @@ module.exports = function(grunt) {
           separator: ';',
         },
         files: {
-          'src/js/init_app.js': ['src/js/skel.min.js','src/js/init.js','src/js/contact.js'],
+          'src/js/init_app.js': ['src/js/contact.js'],
         },
       },
     },
